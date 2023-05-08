@@ -85,7 +85,7 @@ border: none;
 
 
 .section_1{
-
+padding: 50px;
 
 }
 
@@ -93,17 +93,82 @@ border: none;
     font-size: 36px;
     font-weight:bolder ;
     color: #1f2937;
+    margin:40px auto;
+    text-align: center;
     
 }
+.cards{
+    margin:10px auto;
 
+display: flex;
+width: 70%;
+justify-content: space-around;
+
+}
+.card{
+    width: 150px;
+
+
+}
+
+.arbol{
+
+width: 150px;
+height: 150px;
+
+}
+
+.card p{
+
+text-align: center;
+
+
+}
 .section_2 {
     background-color: #e5e7eb;
+    padding: 150px;
     
 }
 
-.section_2 p{
+.section_2-div{
+    width: 70%;
+    margin:0 auto ;
+}
+.section_2-div-p{
     font-size: 36px;
     font-weight:lighter ;
     font-style: italic;
     color: #1f2937
+}
+
+.thor{
+    font-size: 36px;
+
+color: black;
+font-weight:bolder ;
+float: right;
+margin-top: 10px;
+
+}
+
+.section_3{
+padding: 200px;
+
+}
+
+.section_3-div{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    width: 90%;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 5px;
+    color: #e5e7eb;
+}
+
+.section_3-div button{
+    border:3px solid #e5e7eb ; 
+
+
 }
