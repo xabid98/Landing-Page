@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+header{
+background-color: #1f2937;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+header h1{
+font-size: 48px;
+font-weight:bolder ;
+color: #f9faf8;
+}
+
+
+header a, header p{
+    color: #e5e7eb;
+    font-size: 18px;
+
+
+}
+button{
+background-color: #3882f6;
+
+}
+
+
+.section_1{
+
+
+}
+
+.section_1 h1{
+    font-size: 36px;
+    font-weight:bolder ;
+    color: #1f2937;
+    
+}
+
+.section_2 {
+    background-color: #e5e7eb;
+    
+}
+
+.section_2 p{
+    font-size: 36px;
+    font-weight:lighter ;
+    font-style: italic;
+    color: #1f2937
+}
